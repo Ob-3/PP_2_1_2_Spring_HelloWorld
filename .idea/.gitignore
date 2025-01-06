@@ -1,16 +1,44 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
+# Java-related
+*.class
+*.jar
+*.war
+*.ear
 
-.idea/
-*.iml
+# IDEs
+/.idea/
+/*.iml
+/out/
+/.settings/
+/bin/
+/.project
+/.classpath
+/nbproject/private/
+/build/
+/dist/
 
-# OS-specific files
-Thumbs.db
-.DS_Store
+# Build tools
+/target/
+/.gradle/
+/build/
 
+# Logs
 *.log
+*.log.*
+*.out
 *.tmp
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.orig
+
+# OS-specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+desktop.ini
+
+# Sensitive data
+.env

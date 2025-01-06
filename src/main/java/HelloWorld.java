@@ -3,6 +3,7 @@ public class HelloWorld {
     private String message;
  
     public String getMessage() {
+
         return message;
     }
  
@@ -11,5 +12,3 @@ public class HelloWorld {
     }
      
 }
-
-//начало работы над заданием
